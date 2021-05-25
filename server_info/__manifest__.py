@@ -9,7 +9,7 @@
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Technical',
-    'version': '14.0.1.0.1',
+    'version': '13.0.1.0.1',
     'license': 'LGPL-3',
     'images': ['static/description/banner.png', 'static/description/usage.png'],
     'external_dependencies': {
