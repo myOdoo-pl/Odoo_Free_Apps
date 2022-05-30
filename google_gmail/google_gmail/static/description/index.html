@@ -1,0 +1,168 @@
+
+  <section class="">
+    <div class="row m-4">
+      <div class="col-8">
+        <h1 class="mt-4">Google Gmail</h1>
+        <h2 style="color:#acacac">
+          Gmail authentication support for outgoing / incoming mail servers
+        </h2>
+        <h3 style="color:#c1c1c1">
+          Version: <b>V11.0.</b>1.1
+        </h3>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <a href="https://myodoo.pl" target="_blank"><img src="https://odoocdn.com/web/image/res.partner/1699140/image_512/VEGAFONE%20sp.%20z%20o.o?unique=65a731b" style=" width: 120px; padding: 1rem 0rem; margin: auto" alt="myOdoo.pl"></a>
+        </div>
+        <h5 class="text-center">
+          Created and maintained by <br>
+          <b>MyOdoo.pl</b> <br>
+          assistance and support <br>
+          <b><a href="mailto:kontakt@myodoo.pl">kontakt@myodoo.pl</a></b>
+        </h5>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Description</h2>
+    <p class="lead text-center">
+      Google Gmail module native in version 14.0/15.0 adapted to work with version 11.0. Supports Google's new authentication method, as of May 30th, 2022.
+    </p>
+  </section>
+
+  <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Usage</h2>
+    <div class="row">
+      <h3 class="text-center w-100">
+        Input your Gmail Oauth credentials (Client ID & Secret)
+      </h3>
+      <p class="lead">
+          - Go to Settings <br>
+          - Activate the developer mode <br>
+          - Go to Parameters / System Parameters <br>
+          - Fill in corresponding fields with client ID and secret <br><br>
+        <strong>Details regarding Gmail-side configuration can be found in attached README file.</strong><br>
+      </p>
+      <div class="col-auto offset-1">
+        <a href="https://myodoo.pl" target="_blank"><img src="system_parameters.png" class="img-fluid" alt="myOdoo.pl"></a>
+      </div>
+      <br>
+      <h3 class="text-center w-100">
+        Configure Outgoing Server
+      </h3>
+      <p class="lead">
+          - Go to Settings <br>
+          - Activate the developer mode <br>
+          - Go to Email / Outgoing Mail Servers <br>
+          - Add new record <br>
+          - Mark "Gmail" checkbox <br>
+          - Input proper username <br>
+          - Click "Get an Authorization Code" <br>
+          - Accept conditions and copy / paste obtained code <br>
+          - Click "Test Connection" to check if everything works <br>
+          - Save record <br>
+      </p>
+      <div class="col-auto offset-1">
+        <a href="https://myodoo.pl" target="_blank"><img src="gmail_outgoing.png" class="img-fluid" alt="myOdoo.pl"></a>
+      </div>
+      <h3 class="text-center w-100">
+        Configure Incoming Server
+      </h3>
+      <p class="lead">
+          - Go to Settings <br>
+          - Activate the developer mode <br>
+          - Go to Email / Incoming Mail Servers <br>
+          - Add new record <br>
+          - Mark "Gmail" checkbox <br>
+          - Input proper username <br>
+          - Click "Get an Authorization Code" <br>
+          - Accept conditions and copy / paste obtained code <br>
+          - Click "Test & Confirm" to check if everything works <br>
+          - Save record <br>
+      </p>
+      <div class="col-auto offset-1">
+        <a href="https://myodoo.pl" target="_blank"><img src="gmail_incoming.png" class="img-fluid" alt="myOdoo.pl"></a>
+      </div>
+      <div class="col offset-1">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Installation</h2>
+    <p class="lead text-center">
+      Download &rarr; Unzip &rarr; Move to your addons directory &rarr; Update the apps list &rarr; Find "Google Gmail" module &rarr; Install module
+    </p>
+    <hr>
+    <p>
+      <strong>Details regarding Gmail-side configuration can be found in attached README file.</strong>
+    </p>
+  </section>
+
+  <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Changelog</h2>
+    <div class="row">
+      <div class="col-2 offset-2">
+        <p class="lead">
+          <b>V1.1</b>
+        </p>
+      </div>
+      <div class="col offset-2">
+        <p class="lead">
+          * Merged google_gmail and fetchmail_gmail into one module.
+        </p>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-2 offset-2">
+        <p class="lead">
+          <b>V1.0.1</b>
+        </p>
+      </div>
+      <div class="col offset-2">
+        <p class="lead">
+          * Added Gmail credentials to system parameters.
+        </p>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-2 offset-2">
+        <p class="lead">
+          <b>V1.0</b>
+        </p>
+      </div>
+      <div class="col offset-2">
+        <p class="lead">
+          * Module creation
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Bugs</h2>
+    <p class="lead text-center">
+      The module has been tested and no bugs were spotted. In case you encountered any bug or problem please  <b><a href="mailto:kontakt@myodoo.pl">contact us</a>.</b>
+    </p>
+  </section>
+
+    <section class="m-4">
+    <h2 class="text-center mt-2 mb-4" style="text-decoration-line: underline">Credits</h2>
+    <div class="row">
+      <div class="col-2 offset-2">
+        <p class="lead">
+          <b>myOdoo.pl</b>
+        </p>
+      </div>
+      <div class="col offset-2">
+        <p class="lead">
+          * Patryk Prokurat <br/>
+        </p>
+      </div>
+    </div>
+  </section>
+
