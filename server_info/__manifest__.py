@@ -9,7 +9,7 @@
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Technical',
-    'version': '14.0.1.0.1',
+    'version': '1.0.2',
     'license': 'LGPL-3',
     'images': ['static/description/banner.png', 'static/description/usage.png'],
     'external_dependencies': {
@@ -21,13 +21,17 @@
     ],
     'data': [
         'views/fields.xml',
-        'views/assets.xml',
         'data/settings_records.xml'
     ],
     'qweb': [
         'static/src/xml/auto_update.xml',
         'description/usage.png'
     ],
+    'assets': {
+        'web.assets_backend': [
+            '/server_info/static/js/auto_update.js'
+        ]
+    },
     'installable': True,
     'auto_install': False
 }

@@ -1,3 +1,7 @@
+v1.0.2
+======
+* Refactored module due to Odoo 15 standards.
+
 v1.0.1
 ======
 * Add settings_records
