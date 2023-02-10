@@ -1,3 +1,7 @@
+v1.0.2.1
+====
+* Changed module icon.
+
 v1.0.2
 ====
 * Code cleaning

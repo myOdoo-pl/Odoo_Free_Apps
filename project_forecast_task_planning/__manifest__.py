@@ -11,7 +11,7 @@
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Project Management',
-    'version': '[V16]_1.0.2',
+    'version': '[V16]_1.0.2.1',
     'depends': [
         'project',
         'planning',
@@ -22,6 +22,12 @@
         'views/planning_template_views.xml',
         'views/planning_templates.xml',
         'views/project_views.xml',
+    ],
+    "images": [
+        "static/description/banner.png",
+        "static/description/shift_creation.png",
+        "static/description/task_forecast.png",
+        "static/description/shift_notification.png"
     ],
     'installable': True,
     'auto_install': False
