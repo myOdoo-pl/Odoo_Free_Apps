@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="period_report_template" inherit_id="project_forecast.period_report_template">
+        <xpath expr="//span[@class='has_project']" position="after">
+            <span class="has_task" t-att-value="has_task" />
+        </xpath>
+        <xpath expr="//dd[@id='project']" position="after">
+            <dt class="col-sm-4">Task</dt>
+            <dd class="col-sm-8" id="task" />
+        </xpath>
+    </template>
+    <template id="period_report_template" inherit_id="planning.period_report_template">
+
+        <xpath expr="//th[@id='o_role']" position="after">
+            <th t-if="has_task" class="text-left">Task</th>
+        </xpath>
+        <xpath expr="//td[@name='role_id']" position="after">
+            <td t-if="has_task" class="align-middle">
+                <t t-esc="shift.task_id.name" />
+            </td>
+        </xpath>
+
+    </template>
+</odoo>
