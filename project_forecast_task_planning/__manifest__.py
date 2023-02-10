@@ -11,7 +11,7 @@
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Project Management',
-    'version': '[V16]_1.0.2.1',
+    'version': '[V16]_1.0.2.2',
     'depends': [
         'project',
         'planning',
