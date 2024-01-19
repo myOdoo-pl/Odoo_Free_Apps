@@ -1,0 +1,198 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_forecast_task_planning
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-14 08:05+0000\n"
+"PO-Revision-Date: 2023-11-14 09:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4\n"
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_view_form_inherit_project_forecast
+msgid "<span class=\"o_stat_text\">Forecast</span>"
+msgstr "<span class=\"o_stat_text\">Prognoza</span>"
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_task_view_form
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_view_form_inherit_project_forecast
+msgid "<span class=\"o_stat_value\">Hours</span>"
+msgstr "<span class=\"o_stat_value\">Godziny</span>"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_project_task__allow_forecast
+msgid "Allow Planning"
+msgstr "Zezwalaj na Planowanie"
+
+#. module: project_forecast_task_planning
+#: model:ir.ui.menu,name:project_forecast_task_planning.planning_menu_schedule_by_project
+msgid "By Project"
+msgstr "Według Projektu"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,help:project_forecast_task_planning.field_project_project__allow_forecast
+#: model:ir.model.fields,help:project_forecast_task_planning.field_project_task__allow_forecast
+msgid "Enable planning tasks on the project."
+msgstr "Włącz planowanie zadań w projekcie."
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_task_view_form
+msgid "Forecast"
+msgstr "Prognoza"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot__forecast_hours
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_project_task__forecast_hours
+msgid "Forecast Hours"
+msgstr "Prognozowane Godziny"
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_task_view_form
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.project_view_form_inherit_project_forecast
+msgid "Forecasts"
+msgstr "Prognozy"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot__planned_hours
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_project_task__planned_hours
+msgid "Initially Planned Hours"
+msgstr "Wstępnie Zaplanowane Godziny"
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.action_project_task_view_planning
+msgid "Let's start your planning by adding a new shift."
+msgstr "Zacznijmy planowanie od dodania nowej zmiany."
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.action_project_task_view_planning
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.planning_action_schedule_by_project
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.project_forecast_action_schedule_by_employee
+msgid "No shifts found. Let's create one!"
+msgstr "Nie znaleziono żadnych zmian. Stwórzmy jedną!"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,help:project_forecast_task_planning.field_planning_slot__forecast_hours
+msgid "Number of hours already forecast for this task (and its sub-tasks)."
+msgstr "Liczba godzin już prognozowana dla tego zadania (i jego podzadań)."
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,help:project_forecast_task_planning.field_project_task__forecast_hours
+msgid ""
+"Number of hours forecast for this task (and its sub-tasks), rounded to the "
+"unit."
+msgstr ""
+"Liczba godzin prognozowanych dla tego zadania (i jego podzadań), w "
+"zaokrągleniu do jednostek."
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot__parent_id
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.planning_slot_view_search
+msgid "Parent Task"
+msgstr "Zadanie nadrzędne"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_project_project__allow_forecast
+msgid "Planning"
+msgstr "Planowanie"
+
+#. module: project_forecast_task_planning
+#: model:ir.model,name:project_forecast_task_planning.model_planning_slot
+msgid "Planning Shift"
+msgstr "Planowanie zmian"
+
+#. module: project_forecast_task_planning
+#: model:ir.model,name:project_forecast_task_planning.model_project_project
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot__resource_id
+msgid "Resource"
+msgstr "Zasób"
+
+#. module: project_forecast_task_planning
+#: model:ir.actions.act_window,name:project_forecast_task_planning.planning_action_schedule_by_project
+msgid "Schedule by Project"
+msgstr "Harmonogram według Projektu"
+
+#. module: project_forecast_task_planning
+#: model:ir.actions.act_window,name:project_forecast_task_planning.project_forecast_action_schedule_by_employee
+msgid "Schedule by Resource"
+msgstr "Harmonogram według Zasobu"
+
+#. module: project_forecast_task_planning
+#: model:ir.model,name:project_forecast_task_planning.model_planning_slot_template
+msgid "Shift Template"
+msgstr "Szablon Zmian"
+
+#. module: project_forecast_task_planning
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.planning_action_schedule_by_project
+#: model_terms:ir.actions.act_window,help:project_forecast_task_planning.project_forecast_action_schedule_by_employee
+msgid ""
+"Shifts are periods allocated to your resources for a specific role. "
+"Together, they\n"
+"                constitute your resources' planning."
+msgstr ""
+"Zmiany to okresy przydzielone Twoim zasobom na konkretną rolę. Razem oni\n"
+"                stanowią planowanie Twoich zasobów."
+
+#. module: project_forecast_task_planning
+#: model:ir.model,name:project_forecast_task_planning.model_project_task
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot__task_id
+#: model:ir.model.fields,field_description:project_forecast_task_planning.field_planning_slot_template__task_id
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.period_report_template
+#: model_terms:ir.ui.view,arch_db:project_forecast_task_planning.planning_slot_view_search
+msgid "Task"
+msgstr "Zadanie"
+
+#. module: project_forecast_task_planning
+#: model:ir.model.fields,help:project_forecast_task_planning.field_planning_slot__planned_hours
+#: model:ir.model.fields,help:project_forecast_task_planning.field_project_task__planned_hours
+msgid "Time planned to achieve this task (including its sub-tasks)."
+msgstr "Czas zaplanowany na realizację tego zadania (w tym jego podzadań)."
+
+#. module: project_forecast_task_planning
+#: model:ir.actions.act_window,name:project_forecast_task_planning.action_project_task_view_planning
+msgid "View Planning"
+msgstr "Zobacz Planowanie"
+
+#. module: project_forecast_task_planning
+#. odoo-python
+#: code:addons/project_forecast_task_planning/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a project containing plannings. You can either delete all "
+"the project's forecasts and then delete the project or simply deactivate "
+"the project."
+msgstr ""
+"Nie można usunąć projektu zawierającego plany. Możesz usunąć wszystkie "
+"prognozy projektu, a następnie usunąć projekt lub po prostu dezaktywować "
+"projekt."
+
+#. module: project_forecast_task_planning
+#. odoo-python
+#: code:addons/project_forecast_task_planning/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a task containing plannings. You can either delete all "
+"the task's plannings and then delete the task or simply deactivate the task."
+msgstr ""
+"Nie możesz usunąć zadania zawierającego plany. Możesz usunąć wszystkie "
+"plany zadania, a następnie usunąć zadanie lub po prostu je dezaktywować."
+
+#. module: project_forecast_task_planning
+#. odoo-python
+#: code:addons/project_forecast_task_planning/models/project_forecast.py:0
+#, python-format
+msgid "Your task is not in the selected project."
+msgstr "Twoje zadanie nie znajduje się w wybranym projekcie."

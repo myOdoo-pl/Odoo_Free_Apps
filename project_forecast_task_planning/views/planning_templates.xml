@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="period_report_template" inherit_id="project_forecast.period_report_template">
+        <xpath expr="//span[@class='open_slot_has_project']" position="after">
+            <span class="has_task" t-att-value="has_task" />
+        </xpath>
+        <xpath expr="//dd[@id='project']" position="after">
+            <dt class="col-sm-4">Task</dt>
+            <dd class="col-sm-8" id="task" />
+        </xpath>
+    </template>
+</odoo>
