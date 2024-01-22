@@ -19,6 +19,7 @@
         "views/planning_templates.xml",
         "views/project_views.xml",
     ],
+    'images': ['static/description/banner.png'],
     "installable": True,
     "auto_install": False,
 }
