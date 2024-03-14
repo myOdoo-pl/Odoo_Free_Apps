@@ -12,6 +12,7 @@
     "website": "https://myodoo.pl",
     "category": "Project Management",
     "version": "17.0.1.3.0",
+    "license": "LGPL-3",
     "depends": ["project", "planning", "project_forecast"],
     "data": [
         "views/planning_views.xml",
