@@ -9,6 +9,7 @@
     "website": "https://myodoo.pl",
     "category": "Tools",
     "version": "17.0.1.0.0",
+    "license": "LGPL-3",
     "depends": [
         "calendar",
         "room",
