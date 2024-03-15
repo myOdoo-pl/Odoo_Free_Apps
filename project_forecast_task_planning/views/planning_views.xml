@@ -79,7 +79,7 @@
             <xpath expr="//filter[@name='group_by_project']" position="after">
                 <filter name="group_by_task" string="Task" context="{'group_by': 'task_id'}" />
                 <filter name="group_by_parent" string="Parent Task"
-                    context="{'group_by': 'parent_id'}" groups="project.group_subtask_project" />
+                    context="{'group_by': 'parent_id'}" groups="project.group_project_task_dependencies" />
             </xpath>
         </field>
     </record>
